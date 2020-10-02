@@ -1,0 +1,49 @@
+PODS:
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
+  - JGProgressHUD (2.1)
+  - Nimble (8.1.1)
+  - Nimble-Snapshots (8.2.1):
+    - Nimble-Snapshots/Core (= 8.2.1)
+  - Nimble-Snapshots/Core (8.2.1):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble (~> 8.0)
+  - Quick (3.0.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - Nimble
+  - Nimble-Snapshots
+  - Quick
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - iOSSnapshotTestCase
+    - JGProgressHUD
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Nimble: 5f8a2fb6fa343a7242dfdd9d42f7267419d464b2
+  Nimble-Snapshots: 3a4750d83752625c8ebfdc588da105303ee2201e
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: a20e3c605550af51dcea8b017a327e4ed6fff519
+
+COCOAPODS: 1.9.3
